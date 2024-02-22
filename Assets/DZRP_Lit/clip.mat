@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: clip
+  m_Shader: {fileID: 4800000, guid: 1e35fd72b53a8e7459ef6f9a79850f81, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _RECEIVE_SHADOWS
+  - _SHADOWS_DITHER
+  m_InvalidKeywords:
+  - "Alpha\u88C1\u526A"
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses:
+  - ShadowCasterPass
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 53f1be949889f914daac124e91d00227, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 53f1be949889f914daac124e91d00227, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0.443
+    - _Clipping: 0
+    - _Cutoff: 1
+    - _DestBlend: 10
+    - _Metallic: 0.564
+    - _PremultiplyAlpha: 0
+    - _ReceiveShadows: 1
+    - _Shadows: 2
+    - _Smoothness: 1
+    - _SrcBlend: 5
+    - _Zwrite: 0
+    m_Colors:
+    - _BaseCol: {r: 1, g: 0.1462264, b: 0.1462264, a: 1}
+    - _Color: {r: 0.8584906, g: 0.26321644, b: 0.26321644, a: 1}
+    - _Cutoff: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EmissionCol: {r: 0, g: 0.106266305, b: 2.7547169, a: 1}
+  m_BuildTextureStacks: []

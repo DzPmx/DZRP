@@ -1,0 +1,15 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Pp]ackages/
+[Ll]ogs/
+[Uu]serSettings/
+
+
+*.sln
+*.conf
+*.csproj
+*.idea
+*.plastic
+*.user

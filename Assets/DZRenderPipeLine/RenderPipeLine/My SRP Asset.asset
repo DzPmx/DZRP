@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b041b351724b024f8346448b9387ede, type: 3}
+  m_Name: My SRP Asset
+  m_EditorClassIdentifier: 
+  useDynamicBatching: 0
+  useGPUInstancing: 0
+  useSRPBatcher: 0
+  useLightsPerObject: 1
+  shadowSettings:
+    maxDistance: 100
+    distanceFade: 0.2
+    directional:
+      atlasSize: 4096
+      filterMode: 3
+      cascadeCount: 4
+      cascadeRatio1: 0.15
+      cascadeRatio2: 0.2
+      cascadeRatio3: 0.5
+      cascadeFade: 0.25
+      cascadeBlend: 1
+    other:
+      atlasSize: 2048
+      filterMode: 3
+  postFXSettings: {fileID: 11400000, guid: f7063b620f1856949bca31f91d635e56, type: 2}
